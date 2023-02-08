@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "poke_titulo";
+    src: url(font/Passion_One/PassionOne-Regular.ttf);
+}
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho
+{
+    background-image: url(img/bg_pokemon.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.cabecalho h1
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    font-size: 4.5em;
+    font-family: "poke_titulo";
+}
+
+#folha
+{
+    background-color: #3590c7;
+    margin: auto;
+    width: 55vw;
+    padding: 60px;
+    border-radius: 15px;
+    
+}
+
+.quadro
+{
+    background-color: #FFA25A;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    font-family: Helvetica;
+    margin-bottom: 20vh;
+    background-image: url(img/bg_pokeball.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ranking
+{
+    background-color: #7F352F;
+    border-radius: 15px 15px 0px 0px;
+    margin: -25px;
+    color: white;
+    padding: 10px;  
+}
+
+.quadro h1
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.quadro p
+{
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.quadro_texto
+{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+#poke_ball
+{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    border-radius: none;
+    border: none;
+}
+
+.quadro img
+{
+    border-radius: 15px;
+    border: 2px solid;
+}

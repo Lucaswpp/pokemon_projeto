@@ -1,0 +1,48 @@
+#container
+{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+#carta
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+
+    transition: all 0.5s ease;
+}
+
+
+#frente
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+    background-color: crimson;
+    color: white;
+
+
+}
+
+#atras
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+    background-color: gold;
+    color: orange;
+    transform: rotateY(180deg);
+}
+
+#container:hover #carta
+{
+    transform: rotateY(180deg);
+}
